@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Housee Sans;
+    src: url(../fonts/Flareserif\ 821\ Bold.otf);
+}
+
+* {
+    font-family: Housee Sans, sans-serif;
+}
+
+body {
+    background: #AB0028;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* height: 100vh; */
+    width: 100%;
+    color: #fff;
+    overflow-y: hidden;
+}
+
+#auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn-housee {
+    background: #A30028;
+    box-shadow: inset 0px -0.3125rem 0.3125rem 0.125rem #ffbe7d7a;
+    border-radius: 0.438rem;
+    border: 0.125rem solid #e5bf2a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.405rem;
+    padding: 0.625rem 0.938rem;
+    margin-left: 4.2rem;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.social-logins {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-logins a figure{
+    margin-top: 1rem;
+}
+
+.social-logins figure {
+    margin: 0 1rem;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
